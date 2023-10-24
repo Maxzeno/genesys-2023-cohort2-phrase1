@@ -1,0 +1,6 @@
+.main-bg{
+    background-image: url('./image-header.jpg'); 
+    background-position: center; 
+    height: 600px;
+    background-size: cover;
+}
