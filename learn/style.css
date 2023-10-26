@@ -4,3 +4,30 @@
     height: 600px;
     background-size: cover;
 }
+
+.body-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 550px 550px 550px;
+}
+
+.testimonials-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.nav-btn{
+    text-decoration: none;
+    color: rgb(60 60 60);
+    font-size: larger;
+    font-weight: 900;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 40%;
+}
+
+.nav-btn:hover{
+    background-color: aquamarine;
+}
